@@ -1,0 +1,132 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+}
+
+
+/* home
+-------------------------------------------------- */
+
+.site-header {
+    background-color: #223240;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+
+.site-header a {
+    color: #999;
+    transition: ease-in-out color .15s;
+}
+
+.site-header a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.margem-botao-rede-social {
+    margin-right: 1em;
+}
+
+
+/* curriculo
+-------------------------------------------------- */
+
+
+/* barra lateral */
+
+.box-1 {
+    background: #050664;
+    height: auto;
+}
+
+.curriculo-img {
+    height: 250px;
+    float: left;
+    margin: 30px 48px;
+}
+
+.curricilo-endereco {
+    color: #fff;
+    margin: 0px 48px;
+}
+
+.curricilo-faixa {
+    width: 85%;
+    background-color: #fff;
+    margin: 0px 0px 0px 61px;
+}
+
+.curriculo-margem-titulo {
+    margin-left: 10px;
+    color: #050664;
+}
+
+.curriculo-texto-1 {
+    width: 250px;
+    margin: 30px 30px;
+    color: #fff;
+    text-align: justify;
+}
+
+.curriculo-texto-2 {
+    margin: 30px 30px;
+    color: #fff;
+    text-align: justify;
+}
+
+.curriculo-tamanho-font {
+    font-size: 13px;
+}
+
+.curriculo-margem-resumo {
+    margin-top: 40px;
+}
+
+
+/* conteúdo curriculo */
+
+.curriculo-nome {
+    text-align: center;
+    margin-top: 30px;
+    color: #050664;
+}
+
+.curriculo-float-right {
+    float: right;
+    color: #050664;
+}
+
+.texto-alinhamento-justificado {
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.display-block {
+    display: block;
+}
+
+.margem-titulo-1 {
+    margin-bottom: 80px;
+}
+
+.margem-titulo-2 {
+    clear: both;
+    margin-bottom: 30px;
+}
+
+.margem {
+    margin-bottom: 20px;
+}
